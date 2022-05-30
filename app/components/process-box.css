@@ -1,0 +1,31 @@
+.process-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.process-box__item {
+  padding: 20px;
+  background-color: bisque;
+  border-radius: 15px;
+}
+
+.process-box__header {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.process-box__header a {
+  display: block;
+}
+
+.process-box__list-item {
+  margin-bottom: 10px;
+}
+
+.pc {
+  border-bottom: 10px dotted tomato;
+  margin-bottom: 15px;
+}
